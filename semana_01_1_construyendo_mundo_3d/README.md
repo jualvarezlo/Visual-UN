@@ -34,3 +34,9 @@ function Model() {
 
 export default Model; 
 ```
+#### Modelo cargado en la aplicación
+<img src="./media/bear_solid_js.png" alt="Sample Image" width="400"/>
+
+
+#### Triángulos del modelo dibujados con wireframe
+<img src="./media/bear_triangles.png" alt="Sample Image" width="400"/>
