@@ -3,6 +3,7 @@ import { OrbitControls } from "@react-three/drei"; // camera, loaders, etc
 import { Environment } from "@react-three/drei";
 import Model from "./Model";
 import './App.css'
+import Cat from "./Cat";
 
 function App() { 
   return (
@@ -12,6 +13,7 @@ function App() {
       <Environment preset="city" />
       <OrbitControls />
       <Model />
+      {/* <Cat/> */}
     </Canvas>
   );
 }
