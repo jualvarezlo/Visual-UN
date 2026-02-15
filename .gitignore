@@ -21,18 +21,18 @@
 # =========================
 # UNITY
 # =========================
-**/unity/Library/
-**/unity/Temp/
-**/unity/Obj/
-**/unity/Build/
-**/unity/Builds/
-**/unity/Logs/
-**/unity/MemoryCaptures/
-**/unity/.vscode/
-**/unity/*.csproj
-**/unity/*.unityproj
-**/unity/*.sln
-**/unity/*.user
+**/unity/**/Library/
+**/unity/**/Temp/
+**/unity/**/Obj/
+**/unity/**/Build/
+**/unity/**/Builds/
+**/unity/**/Logs/
+**/unity/**/MemoryCaptures/
+**/unity/**/.vscode/
+**/unity/**/*.csproj
+**/unity/**/*.unityproj
+**/unity/**/*.sln
+**/unity/**/*.user
 
 # =========================
 # PYTHON
