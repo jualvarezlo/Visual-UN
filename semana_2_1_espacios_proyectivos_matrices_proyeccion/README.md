@@ -78,3 +78,35 @@ Con un FOV de 30, el cual es la mitad del FOV por defecto, observamos que al ser
 Ahora, si ajustamos el `Near` justo en 3.5 que es cuando empieza a rozar con los cubos, vemos que estos no se dibujan de manera apropiada, debido a que su cara frontal no está dentro del espacio que la cámara proyecta.
 
 <img src="./media/unity_near.png" alt="Sample Image" width="400"/>
+
+### Processing
+
+Para el ejercicio en processing, ubicamos 3 cubos con diferentes valores de `z`, y definimos una variable booleana para poder decidir si se iba a presentar la vista ortogonal o en perspectiva.
+
+```
+  pushMatrix();
+  translate(-100, 0, -100);
+  fill(255, 0, 0);
+  box(80);
+  popMatrix();
+
+  pushMatrix();
+  translate(0, 0, -300);
+  fill(0, 255, 0);
+  box(80);
+  popMatrix();
+
+  pushMatrix();
+  translate(100, 0, -500);
+  fill(0, 0, 255);
+  box(80);
+  popMatrix();
+```
+#### Proyección en perspectiva
+<img src="./media/processing_perspectiva.png" alt="Sample Image" width="400"/>
+
+#### Proyección ortogonal
+<img src="./media/processing_orto.png" alt="Sample Image" width="400"/>
+
+## Aprendizajes y dificultades
+* Las "Cámaras" en motores gráficos son en realidad una matriz de proyección.
